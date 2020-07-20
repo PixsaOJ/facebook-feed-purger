@@ -1,0 +1,23 @@
+{
+
+    "description": "Removes New Facebook's Feed",
+    "manifest_version": 2,
+    "name": "Purge Facebook Feed",
+    "version": "1.0",
+    "homepage_url": "https://pixsa.now.sh",
+  
+    "background": {
+      "scripts": ["background.js"]
+    },
+  
+    "page_action": {
+      "default_icon": "icons/off.svg",
+      "browser_style": true
+    },
+    
+    "permissions": [
+      "activeTab",
+      "tabs"
+    ]
+  
+  }
